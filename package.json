@@ -19,7 +19,12 @@
     "@angular/platform-browser": "~10.1.0",
     "@angular/platform-browser-dynamic": "~10.1.0",
     "@angular/router": "~10.1.0",
+    "ngx-joystick": "^1.0.2",
+    "ngx-virtual-joystick": "0.0.9",
+    "nipplejs": "^0.9.0",
+    "postcss-normalize-url": "^4.0.1",
     "rxjs": "~6.6.0",
+    "three": "^0.126.1",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },

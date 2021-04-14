@@ -27,17 +27,6 @@ html,body {
   src: url(assets/Fonts/GolfClubHomicide-51azG.ttf);
   }
 
-  
-  @media screen and (max-height: 500px) {
-    .menuLine{
-      display:none;
-    }
-  }
-  @media screen and (min-height: 501px) {
-    .menuLine{
-      display:block;
-    }
-  }
   .absolution {
       position: absolute;
       height: 100vh;
@@ -53,7 +42,8 @@ html,body {
       border: 5px solid black;
   }
   .health-bar-container{
-      border:5px solid #ccc;background-color: white;opacity: 0.7;width: 35%;height: 28px;border-radius: 2px;
+      /* border:5px solid #ccc;background-color: white; */
+      opacity: 0.7;width: 35%;height: 28px;border-radius: 2px;
   }
   .health-bar{
       color:#000;padding-left:2px;font-size: 15px;background-color:#c54;height: 18px;opacity: 1;
@@ -64,7 +54,7 @@ html,body {
   }
   .title{ width: 30%;left:35%; text-align: center;}
   .health1{left:0}
-  .menuLine{
+  .header-text{
     margin: 0!important;opacity: 0.8;font-size:40px;color: #cf1313;font-family: Killer2;
   }
 
@@ -101,14 +91,16 @@ html,body {
   }
   .loader-container{
     top:70%;
-    border:5px solid #ccc;
-    background-color: white;
+    /* border:5px solid #ccc;
+    background-color: white; */
     opacity: 0.7;
     width: 50%;
     left:25%;
     height: 28px;
     border-radius: 2px;
-    overflow:hidden;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .load-percent{color:#000;padding-left:2px;font-size: 18px;background-color:grey;height: 18px;opacity: 1;
       font-family: Killer1;width:100%;}
